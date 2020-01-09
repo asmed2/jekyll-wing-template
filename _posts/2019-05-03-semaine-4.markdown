@@ -32,6 +32,6 @@ J’ai participé à l'installation et à la configuration de nouveaux postes de
 On a fait le tour de tout l'hopital pour dépanner et remplacer du matériel dont des imprimentes, des unités centrales, des moniteurs...etc  
 
 <br/> 
-<img src="/jekyll-wing-template/assets/q3.png" width="350" height="200" class="90">
-<img src="/jekyll-wing-template/assets/q5.png" width="350" height="200" class="90">
+<img src="/jekyll-wing-template/assets/boitier.PNG" />
+
 
