@@ -1,53 +1,8 @@
-﻿---
+---
 author: Asmed
 layout: post
 title:  "Compte-rendu semaine 5"
 date:   2020-02-07 06:42:45 +0200
 categories: jekyll update
 ---
-<br/>
-
-**I) Travaux techniques**
-<br/> 
-Depuis lundi, je fais beaucoup de manipulation 	notamment du dépannage et du remplacement de matériel dont des moniteurs, des boîtiers, et des imprimantes. On a commencé par installer des nouveaux boîtiers aux urgences de Mamoudzou, puis le jour suivant on s’est rendu à l’hôpital de Kahani et celui de Mramadoudou pour installer des ordinateurs et des imprimantes. On a aussi fait du dépannage précisément sur le réseau téléphonique, sur des prises Ethernet qui posaient problème, on était obligé de changer d’emplacement sur l’armoire. J’ai vu aussi comment configurer une imprimante, via hexagon.  
-
-<br/> 
-
-<img src="/jekyll-wing-template/assets/prat1.png" width="200" height="200" class="90">
-<img src="/jekyll-wing-template/assets/prat2.png" width="200" height="200" class="90">
-<img src="/jekyll-wing-template/assets/prat6.png" width="200" height="200" class="90">
-<img src="/jekyll-wing-template/assets/prat4.png" width="200" height="200" class="90">
-<P style="text-align:center">Travail au sud de Mayotte  (Travail : binome )</P>
-
-<br/> 
-
-**II) Rasberry Pi**
-<br/> 
-Il y a du nouveau matériel qui vient d’arriver dont font partis les micro-ordinateur. J’avoue que les monter, les installer et les configurer n’étaient pas plus difficiles mais c’est quand même intéressant de les installer. Ainsi j’ai pris connaissance de ce matériel et j’ai fait le montage tout seul.  
-<br/> 
-<img src="/jekyll-wing-template/assets/prat3.png" width="200" height="200" class="90">
-<img src="/jekyll-wing-template/assets/prat7.png" width="200" height="200" class="90">
-<br/> 
-<br/> 
-**III) PuTTy**
-<br/> 
-Je maîtrise un peu le logiciel PuTTY et c’est très bien car avant ma venue ici je ne savais pas qu’il existait. Voici quelques commandes de bases que j’ai apprise durant mon projet.
-Tout d’abord on ouvre le logiciel et on met l’adresse IP du switch, ensuite on choisi le type de connexion si c’est ssh ou Telnet...etc  
-on vérifie bien le port si c’est le 23 et on applique. On s’authentifie et on tape les commandes suivantes:  
-
-* -- **en** permet de vérifier si on a bien accès à la modification
-* -- **sh int status** permet d’afficher tous le matériel brancher dans chaque ports port du switch, mais aussi son statut c’est-à-dire s’il est actif ou pas, et son numéro de Vlan...etc
-* -- **exit** permet de fermer le terminal sans le quitter par force.  
-
-On a placé des serveur virtuels de secours en cas de problème avec le serveur physique afin que ces serveurs secondaires puissent prendre le relai, mais il a fallut avertir chaque switch des 2 serveurs virtuels et pour cela on a utilisé les commande suivantes:  
-
-* -- **conf t** permet d’activer l’accès et les droits de modification.  
-* -- **interface vlan** permet de se rendre sur l’interface du Vlan demandé  
-* -- **ip helper-adress 0.0.0.0** permet d’ajouter les nouveaux adresses IP des serveurs virtuels de secours.  
-* -- **exit** permet de sortir du mode configuration.  
-* -- **wr** permet d’appliquer les modifications.  
-* -- **show config** pour vérifier la configuration a été appliqué ou pas.  
-<br/> 
-<P style="text-align:center"><img src="/jekyll-wing-template/assets/putty.png" width="400" height="200" ></P>
-<P style="text-align:center">Un logiciel formidable en réseau  (Logiciel : PuTTY )</P>
 
