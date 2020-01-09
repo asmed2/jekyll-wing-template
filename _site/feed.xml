@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mon parcours de formation</title>
+    <description>Bienvenue sur mon site de parcours de formation.Ce site décrit toute l’expérience que j'acquiers au cours de mon stage. En effet, étant étudiant en BTS SIO SISR, mon objectif est d'acquérir le plus d'expérience possible. Si vous voulez créer un site comme le mien, n’hésitez pas à cliquer sur le bouton lire plus ci-dessous.</description>
+    <link>http://localhost:4000/jekyll-wing-template/</link>
+    <atom:link href="http://localhost:4000/jekyll-wing-template/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 09 May 2019 11:05:40 +0300</pubDate>
+    <lastBuildDate>Thu, 09 May 2019 11:05:40 +0300</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Compte-rendu semaine 5</title>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I) Travaux techniques&lt;/strong&gt;
+&lt;br /&gt; 
+Depuis lundi, je fais beaucoup de manipulation 	notamment du dépannage et du remplacement de matériel dont des moniteurs, des boîtiers, et des imprimantes. On a commencé par installer des nouveaux boîtiers aux urgences de Mamoudzou, puis le jour suivant on s’est rendu à l’hôpital de Kahani et celui de Mramadoudou pour installer des ordinateurs et des imprimantes. On a aussi fait du dépannage précisément sur le réseau téléphonique, sur des prises Ethernet qui posaient problème, on était obligé de changer d’emplacement sur l’armoire. J’ai vu aussi comment configurer une imprimante, avec via hexagon.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/jekyll-wing-template/assets/prat1.png&quot; width=&quot;200&quot; height=&quot;200&quot; class=&quot;90&quot; /&gt;
+&lt;img src=&quot;/jekyll-wing-template/assets/prat2.png&quot; width=&quot;200&quot; height=&quot;200&quot; class=&quot;90&quot; /&gt;
+&lt;img src=&quot;/jekyll-wing-template/assets/prat6.png&quot; width=&quot;200&quot; height=&quot;200&quot; class=&quot;90&quot; /&gt;
+&lt;img src=&quot;/jekyll-wing-template/assets/prat4.png&quot; width=&quot;200&quot; height=&quot;200&quot; class=&quot;90&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center&quot;&gt;Travail au sud de Mayotte  (Travail : binome )&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;II) Rasberry Pi&lt;/strong&gt;
+&lt;br /&gt; 
+Il y a du nouveau matériel qui vient d’arriver dont font partis les micro-ordinateur. J’avoue que les monter, les installer et les configurer n’étaient pas plus difficiles mais c’est quand même intéressant de les installer. Ainsi j’ai pris connaissance de ce matériel et j’ai fait le montage tout seul.&lt;br /&gt;
+&lt;br /&gt; 
+&lt;img src=&quot;/jekyll-wing-template/assets/prat3.png&quot; width=&quot;200&quot; height=&quot;200&quot; class=&quot;90&quot; /&gt;
+&lt;img src=&quot;/jekyll-wing-template/assets/prat7.png&quot; width=&quot;200&quot; height=&quot;200&quot; class=&quot;90&quot; /&gt;
+&lt;br /&gt; 
+&lt;br /&gt; 
+&lt;strong&gt;III) PuTTy&lt;/strong&gt;
+&lt;br /&gt; 
+Je maîtrise un peu le logiciel PuTTY et c’est très bien car avant ma venue ici je ne savais pas qu’il existait. Voici quelques commandes de bases que j’ai apprise durant mon projet.
+Tout d’abord on ouvre le logiciel et on met l’adresse IP du switch, ensuite on choisi le type de connexion si c’est ssh ou Telnet…etc&lt;br /&gt;
+on vérifie bien le port si c’est le 23 et on applique. On s’authentifie et on tape les commandes suivantes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;– &lt;strong&gt;en&lt;/strong&gt; permet de vérifier si on a bien accès à la modification&lt;/li&gt;
+  &lt;li&gt;– &lt;strong&gt;sh int status&lt;/strong&gt; permet d’afficher tous le matériel brancher dans chaque ports port du switch, mais aussi son statut c’est-à-dire s’il est actif ou pas, et son numéro de Vlan…etc&lt;/li&gt;
+  &lt;li&gt;– &lt;strong&gt;exit&lt;/strong&gt; permet de fermer le terminal sans le quitter par force.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On a placé des serveur virtuels de secours en cas de problème avec le serveur physique afin que ces serveurs secondaires puissent prendre le relai, mais il a fallut avertir chaque switch des 2 serveurs virtuels et pour cela on a utilisé les commande suivantes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;– &lt;strong&gt;conf t&lt;/strong&gt; permet d’activer l’accès et les droits de modification.&lt;/li&gt;
+  &lt;li&gt;– &lt;strong&gt;interface vlan&lt;/strong&gt; permet de se rendre sur l’interface du Vlan demandé&lt;/li&gt;
+  &lt;li&gt;– &lt;strong&gt;ip helper-adress 0.0.0.0&lt;/strong&gt; permet d’ajouter les nouveaux adresses IP des serveurs virtuels de secours.&lt;/li&gt;
+  &lt;li&gt;– &lt;strong&gt;exit&lt;/strong&gt; permet de sortir du mode configuration.&lt;/li&gt;
+  &lt;li&gt;– &lt;strong&gt;wr permet&lt;/strong&gt; d’appliquer les modifications.&lt;/li&gt;
+  &lt;li&gt;– &lt;strong&gt;show config&lt;/strong&gt; pour vérifier la configuration a été appliqué ou pas.&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;/jekyll-wing-template/assets/putty.png&quot; width=&quot;400&quot; height=&quot;200&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center&quot;&gt;Un logiciel formidable en réseau  (Logiciel : PuTTY )&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 09 May 2019 07:42:45 +0300</pubDate>
+        <link>http://localhost:4000/jekyll-wing-template/jekyll/update/2019/05/09/semaine-5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/jekyll/update/2019/05/09/semaine-5.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Compte-rendu semaine 4</title>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I) Les problèmes rencontrés&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cette quatrième semaine était vraiment chaotique car deux onduleurs sur trois ont lâché, de ce fait on a eu plusieurs coupures toutes les dix minutes. Un nouveau technicien était venu mais j’ai pas eu la chance d’y assister sur place. De plus le mercredi était férié, et par conséquent ça m’a un peu ralenti.&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;II) Mon projet&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai enfin finalisé mon projet, il est bouclé. Je suis fier de moi car j’ai réussi à mener cette tache que l’on m’a confié sans l’aide de personne et c’est intense pour moi.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;III) Les onduleurs en pannes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Au début de la semaine, on était entrain de travailler et tout à coup les onduleurs ont lâché suite à une coupure de courant mais ils n’ont pas pu alimenter l’entreprise, ils ont passé à 0% en l’espace d’une seconde.Pour moi je dirai qu’il y a un problème aux niveaux des batteries  ou bien une erreur dans la configuration. Quoi qu’il en soit ils ont prévu des générateurs de secours pour prendre le relai.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+&lt;img width=&quot;25%&quot; src=&quot;/jekyll-wing-template/assets/ond2.jpg&quot; /&gt;
+&lt;img width=&quot;25%&quot; src=&quot;/jekyll-wing-template/assets/ond3.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IV) Pratique&lt;/strong&gt;&lt;br /&gt;
+J’ai participé à l’installation et à la configuration de nouveaux postes de travail, je sais comment connecté le different materiel et pris connaissance des differents cables dont précisement les cables Ethernet, d’alimentation, HDMI, USB, VGA…etc &lt;br /&gt;
+On a fait le tour de tout l’hopital pour dépanner et remplacer du matériel dont des imprimentes, des unités centrales, des moniteurs…etc&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+&lt;img src=&quot;/jekyll-wing-template/assets/q3.png&quot; width=&quot;350&quot; height=&quot;200&quot; class=&quot;90&quot; /&gt;
+&lt;img src=&quot;/jekyll-wing-template/assets/q5.png&quot; width=&quot;350&quot; height=&quot;200&quot; class=&quot;90&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 03 May 2019 07:42:45 +0300</pubDate>
+        <link>http://localhost:4000/jekyll-wing-template/jekyll/update/2019/05/03/semaine-4.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/jekyll/update/2019/05/03/semaine-4.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Compte-rendu semaine 3</title>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I) Les problèmes rencontrés&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;
+Cette  troisième semaine était vraiment catastrophique , en effet le lundi était férié, le mardi et le jeudi, Mayotte était en alerte cyclonique, de ce fait l’entreprise avait fermé. Malgré ces incidents, j’ai pu continuer mon travail puisque j’avais en quelque sorte anticipé l’incident.&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;II) Mon projet&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;
+Je suis en cours de finalisation de mon projet , j’ai importé mon travail sur google drive,et cela me permet de travailler d’avantage à la maison les week-ends. C’est extraordinaire puisqu’il me reste du temps pour voir d’autres choses et acquérir encore plus d’expérience.
+Quand j’aurai bouclé ce projet, mon tuteur me prendra avec lui pour travailler ensemble car pour l’instant c’est plus un travail individuel que collectif même s’il vient tout le temps voir comment j’avance.&lt;br /&gt;
+&lt;br /&gt;
+&lt;img width=&quot;60%&quot; src=&quot;/jekyll-wing-template/assets/proj.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;III) L’onduleur en panne&lt;/strong&gt;
+&lt;br /&gt;
+J’ai pu retiré avec l’aide du technicien le composant qui pose problème, en effet cette petite carte mère est grillée suite à une surcharge électrique.C’est un composant facteur puisqu’il joue le rôle de support pour les fusibles. Le technicien de maintenance onduleur a fait une nouvelle commande de ce composant pour un remplacement prévu dans les prochains jours à venir.
+Si tout se deroule comme prévu, je demanderai à assister une nouvelle fois au remplacement.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+&lt;img width=&quot;45%&quot; src=&quot;/jekyll-wing-template/assets/fu1.jpg&quot; /&gt;
+&lt;img width=&quot;45%&quot; src=&quot;/jekyll-wing-template/assets/fu2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+Vous pouvez accéder à une petite partie de mon projet en cliquant
+&lt;a href=&quot;/jekyll-wing-template/assets/Intercos.xlsx&quot; target=&quot;_blank&quot;&gt;ici&lt;/a&gt;.  
+&lt;p&gt;
+Ainsi qu'à une petite partie du fichier annexe en cliquant
+&lt;a href=&quot;/jekyll-wing-template/assets/swi.doc&quot; target=&quot;_blank&quot;&gt;ici&lt;/a&gt;.
+&lt;!-- lien fichier --&gt;
+&lt;/p&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 26 Apr 2019 07:42:45 +0300</pubDate>
+        <link>http://localhost:4000/jekyll-wing-template/jekyll/update/2019/04/26/semaine-3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/jekyll/update/2019/04/26/semaine-3.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Compte-rendu semaine 2</title>
+        <description>&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt; 
+&lt;strong&gt;I) Mon projet&lt;/strong&gt;
+&lt;br /&gt; 
+&lt;br /&gt;
+J’ai commencé mon projet « Intercos-Switch », j’ai fait les classeurs et je complète le différent matériel connecté au réseau en m’adaptant avec le logiciel PuTTY Telnet. Vous retrouverez ci-dessous des images que j’ai fais afin d’avoir une idée de ce projet.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img width=&quot;80%&quot; src=&quot;/jekyll-wing-template/assets/Capture2.PNG&quot; /&gt;
+&lt;br /&gt; 
+&lt;br /&gt; 
+On a une nouvelle fois visiter la salle de serveur ,et j’ai pris connaissances de différents câbles/ports  que ce soit les standards ou les spécifiques. En effet les standards &lt;strong&gt;(Ports Ethernet)&lt;/strong&gt; permettent de connecter le matériel tels que les ordinateurs, les imprimantes autrement dit, les branchement standards…&lt;br /&gt;
+Tandis que les ports spécifiques tels que &lt;strong&gt;les liaisons fibres&lt;/strong&gt; permettent d’interconnecter plusieurs switches sur différent bâtiments, c’est le cas ici au &lt;strong&gt;CHM&lt;/strong&gt; . L’avantage avec les liaisons fibres ce qu’elles permettent &lt;strong&gt;un grand flux de trafic réseau.&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt; 
+ &lt;img width=&quot;40%&quot; src=&quot;/jekyll-wing-template/assets/port.jpg&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt; 
+&lt;strong&gt;II)  Les problemes que j’ai rencontré dans la semaine&lt;/strong&gt; &lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Certains sites dont &lt;strong&gt;« rboughlem.fr »&lt;/strong&gt;, &lt;strong&gt;« siotech.github.io »&lt;/strong&gt;,  étaient inaccessibles chez moi alors qu’ils étaient accessibles chez mes collègues. J’ai vérifié mon DNS dans « etc/network/interface » et j’ai constaté qu’il y avait une adresse étrange , je l’ai effacé et remis celle de Google. Le problème a été résolu .&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;III) Manipulation d’outils professionnels&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;
+Il y a  &lt;strong&gt;3 onduleurs en parallèles&lt;/strong&gt; , d’une &lt;strong&gt;autonomie de 3*15 minutes&lt;/strong&gt; pour assurer la &lt;strong&gt;sauvegardes de données&lt;/strong&gt; en cas de coupure  de courant mais malheuresement l’un a lâché suite a une coupure de courant . 
+Ainsi j’ai eu la chance d’assister &lt;strong&gt;le technicien de maintenance onduleur&lt;/strong&gt; et j’en ai profité pour apprendre plus d’avantage . On a vérifié l’historique car il y a &lt;strong&gt;un système de gestion d’incidents&lt;/strong&gt; et grâce à ça on a relevé l’heure et la date exacte de l’incident. J’ai manipulé certains outils professionnels tels que &lt;strong&gt;le multimètre&lt;/strong&gt;, ce dernier a permis de vérifier si &lt;strong&gt;les fusibles&lt;/strong&gt; étaient opérationnels ou pas . Mais permet aussi de mesurer &lt;strong&gt;la fréquence, la température, la résistance , et la tension dans un circuit électronique&lt;/strong&gt;…..J’ai pu voir la &lt;strong&gt;carte mère&lt;/strong&gt; et &lt;strong&gt;la batterie&lt;/strong&gt; de &lt;strong&gt;l’onduleur&lt;/strong&gt; d’une tension de &lt;strong&gt;plus de 300 volts&lt;/strong&gt;
+J’ai utilisé aussi &lt;strong&gt;le VAT&lt;/strong&gt; , qui veut dire &lt;strong&gt;vérificateur d’absence de tension&lt;/strong&gt; afin d’être sûr que les fusibles ne fonctionnaient plus. J’ai appris aussi qu’on pouvait se connecter sur l’onduleur via un &lt;strong&gt;câble USB.&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt; 
+&lt;img width=&quot;30%&quot; src=&quot;/jekyll-wing-template/assets/ond1.jpg&quot; /&gt;
+&lt;img width=&quot;30%&quot; src=&quot;/jekyll-wing-template/assets/ond2.jpg&quot; /&gt;
+&lt;img width=&quot;30%&quot; src=&quot;/jekyll-wing-template/assets/ond3.jpg&quot; /&gt;
+&lt;br /&gt; 
+&lt;br /&gt; 
+&lt;strong&gt;J’ai realisé aussi une video que vous pouvez visionner pour avoir une idée de mon avancement.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+Pour visionner cette video cliquez
+&lt;a href=&quot;/jekyll-wing-template/assets/ondson.mp4&quot; target=&quot;_blank&quot;&gt;ici&lt;/a&gt;.
+
+&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Apr 2019 10:42:45 +0300</pubDate>
+        <link>http://localhost:4000/jekyll-wing-template/jekyll/update/2019/04/19/semaine-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/jekyll/update/2019/04/19/semaine-2.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Compte-rendu semaine 1</title>
+        <description>&lt;p&gt;Depuis &lt;strong&gt;lundi 08/Avril/2019&lt;/strong&gt; on m’a integré dans le domaine réseau, ainsi j’ai pu visité le bureau serveur et j’ai eu la chance de voir la plupart du matériel dont notamment , le serveur et les switches, les différents types de câbles réseaux pour les connexion  et les différents ports… 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai pris connaissance des différents switches , le &lt;strong&gt;WS-C3760-48TS&lt;/strong&gt; avec ses 48 ports , le &lt;strong&gt;WS-C2960G-24TC-L&lt;/strong&gt;  avec ses 24 ports et d’autres switches de 12 ports tel que le &lt;strong&gt;WS-C2960X-12G&lt;/strong&gt;…&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai découvert un nouveau logiciel que je n’ai jamais utilisé.Le logiciel PuTTY et précisément Telnet ,Il sera un logiciel indispensable pour gérer  le réseau voir le différent matériel connecté au réseaux ainsi que leurs options de configuration.
+Je fais aussi de la documentation car c’est un outil indispensable pour   se tenir informer de nouvelles tendances et mises à jours.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Les logiciels que j’ai installé sont&lt;/strong&gt;:&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;em&gt;-VirtualBox&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;em&gt;-Ubuntu&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;em&gt;-PuTTY&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;em&gt;-chrome&lt;/em&gt;&lt;/strong&gt; …etc&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Les problèmes rencontrés durant la semaine&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai rencontres des problèmes de connexions de ce fait,&lt;/p&gt;
+
+&lt;p&gt;J’ai fait des diagnostics , j’ai vérifier &lt;strong&gt;le par-feu&lt;/strong&gt; de ma machine, &lt;strong&gt;le DNS&lt;/strong&gt;, &lt;strong&gt;les antivirus&lt;/strong&gt;, ensuite j’ai fait &lt;strong&gt;un ping&lt;/strong&gt; vers notre serveur du CHM , tout paraissait normal , enfin j’ai vérifié la configuration et j’ai tout de suite remarqué qu’il y avait un problème  &lt;strong&gt;d’adresse IP&lt;/strong&gt; ainsi j’ai pu résoudre ce problème de réseau sans aide…&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mon tuteur m’a confié la tache de créer un fichier de gestion  pour un projet nommé &lt;em&gt;« Intercos-Switch »&lt;/em&gt; , c’est avec ce fichier qu’on travaillera moi et lui tout au long de mon stage.&lt;/p&gt;
+
+&lt;p&gt;Ce fichier contient plus de 100 classeurs Excel qui doivent être compléter au fuir et à mesure en adaptant le logiciel &lt;strong&gt;Excel et PuTTY Telnet&lt;/strong&gt; et d’autres logiciels afin de renseigner tout le matériel connecté au réseaux  .&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;On fait beaucoup des va et vient entre les ordinateur et le bureau du serveur informatique car il y a aussi un travail d’identification. En plus , il y aura un travail plus technique car on va faire de la pratique aussi.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 12 Apr 2019 10:42:45 +0300</pubDate>
+        <link>http://localhost:4000/jekyll-wing-template/jekyll/update/2019/04/12/semaine-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-wing-template/jekyll/update/2019/04/12/semaine-1.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+---
+author: Asmed
+layout: post
+title:  "Compte-rendu semaine 1"
+date:   2019-04-12 09:42:45 +0200
+categories: jekyll update
+---
+
+
+Depuis **lundi 08/Avril/2019** on m’a integré dans le domaine réseau, ainsi j’ai pu visité le bureau serveur et j’ai eu la chance de voir la plupart du matériel dont notamment , le serveur et les switches, les différents types de câbles réseaux pour les connexion  et les différents ports… 
+<br/> 
+ 
+
+
+J’ai pris connaissance des différents switches , le **WS-C3760-48TS** avec ses 48 ports , le **WS-C2960G-24TC-L**  avec ses 24 ports et d’autres switches de 12 ports tel que le **WS-C2960X-12G**…  
+<br/> 
+
+J’ai découvert un nouveau logiciel que je n’ai jamais utilisé.Le logiciel PuTTY et précisément Telnet ,Il sera un logiciel indispensable pour gérer  le réseau voir le différent matériel connecté au réseaux ainsi que leurs options de configuration.
+Je fais aussi de la documentation car c’est un outil indispensable pour   se tenir informer de nouvelles tendances et mises à jours.  
+<br/> 
+  
+
+**Les logiciels que j’ai installé sont**:  
+<br/> 
+* - ***-VirtualBox***
+* - ***-Ubuntu***
+* - ***-PuTTY***
+* - ***-chrome*** ...etc  
+
+
+**Les problèmes rencontrés durant la semaine**      
+
+<br/> 
+  
+J’ai rencontres des problèmes de connexions de ce fait,
+
+J’ai fait des diagnostics , j’ai vérifier **le par-feu** de ma machine, **le DNS**, **les antivirus**, ensuite j’ai fait **un ping** vers notre serveur du CHM , tout paraissait normal , enfin j’ai vérifié la configuration et j’ai tout de suite remarqué qu’il y avait un problème  **d’adresse IP** ainsi j’ai pu résoudre ce problème de réseau sans aide...  
+<br/> 
+
+Mon tuteur m’a confié la tache de créer un fichier de gestion  pour un projet nommé *« Intercos-Switch »* , c’est avec ce fichier qu’on travaillera moi et lui tout au long de mon stage.  
+
+Ce fichier contient plus de 100 classeurs Excel qui doivent être compléter au fuir et à mesure en adaptant le logiciel **Excel et PuTTY Telnet** et d’autres logiciels afin de renseigner tout le matériel connecté au réseaux  .  
+
+<br/> 
+
+On fait beaucoup des va et vient entre les ordinateur et le bureau du serveur informatique car il y a aussi un travail d’identification. En plus , il y aura un travail plus technique car on va faire de la pratique aussi.  
+
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
