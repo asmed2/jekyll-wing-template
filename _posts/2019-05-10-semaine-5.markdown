@@ -13,7 +13,7 @@ Depuis lundi, je fais beaucoup de manipulation 	notamment du dépannage et du re
 
 <br/> 
 
-<img src="/jekyll-wing-template/assets/armoir.PNG" />
+<img width="100%" src="/jekyll-wing-template/assets/armoir.PNG" />
 
 <br/> 
 
@@ -21,8 +21,8 @@ Depuis lundi, je fais beaucoup de manipulation 	notamment du dépannage et du re
 <br/> 
 Il y a du nouveau matériel qui vient d’arriver dont font partis les micro-ordinateur. J’avoue que les monter, les installer et les configurer n’étaient pas plus difficiles mais c’est quand même intéressant de les installer. Ainsi j’ai pris connaissance de ce matériel et j’ai fait le montage tout seul.  
 <br/> 
-<img src="/jekyll-wing-template/assets/prat3.png" width="200" height="200" class="90">
-<img src="/jekyll-wing-template/assets/prat7.png" width="200" height="200" class="90">
+
+<img width="100%" src="/jekyll-wing-template/assets/prat7.png" width="200" height="200" class="90">
 <br/> 
 <br/> 
 **III) PuTTy**
@@ -44,6 +44,8 @@ On a placé des serveur virtuels de secours en cas de problème avec le serveur 
 * -- **wr** permet d’appliquer les modifications.  
 * -- **show config** pour vérifier la configuration a été appliqué ou pas.  
 <br/> 
-<P style="text-align:center"><img src="/jekyll-wing-template/assets/putty.png" width="400" height="200" ></P>
+<P style="text-align:center">
+  <img width="100%"src="/jekyll-wing-template/assets/putty.png" width="400" height="200" >
+</P>
 <P style="text-align:center">Un logiciel formidable en réseau  (Logiciel : PuTTY )</P>
 
