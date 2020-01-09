@@ -1,7 +1,7 @@
 ---
 author: Asmed
 layout: post
-title:  "Compte-rendu semaine 1          (1ère Année)"
+title:  "Compte-rendu semaine 1          |1ère Année|"
 date:   2019-04-12 09:42:45 +0200
 categories: jekyll update
 ---
