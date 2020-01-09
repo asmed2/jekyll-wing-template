@@ -14,10 +14,6 @@ Depuis lundi, je fais beaucoup de manipulation 	notamment du dépannage et du re
 <br/> 
 
 <img src="/jekyll-wing-template/assets/prat1.png" width="200" height="200" class="90">
-<img src="/jekyll-wing-template/assets/prat2.png" width="200" height="200" class="90">
-<img src="/jekyll-wing-template/assets/prat6.png" width="200" height="200" class="90">
-<img src="/jekyll-wing-template/assets/prat4.png" width="200" height="200" class="90">
-<P style="text-align:center">Travail au sud de Mayotte  (Travail : binome )</P>
 
 <br/> 
 
