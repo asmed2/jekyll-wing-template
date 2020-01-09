@@ -37,11 +37,5 @@ J’ai utilisé aussi **le VAT** , qui veut dire **vérificateur d’absence de 
 <img src="/jekyll-wing-template/assets/onduleur.PNG"/>
 <br/> 
 <br/> 
-**J'ai realisé aussi une video que vous pouvez visionner pour avoir une idée de mon avancement.**  
 
-<br/> 
-
-<p>
-Pour visionner cette video cliquez
-<a href="/jekyll-wing-template/assets/ondson.mp4" target="_blank">ici</a>.
 
