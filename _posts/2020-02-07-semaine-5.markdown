@@ -1,7 +1,7 @@
 ﻿---
 author: Asmed
 layout: post
-title:  "Compte-rendu semaine 5 (2éme Année)"
+title:  "Compte-rendu semaine 5"
 date:   2020-02-07 06:42:45 +0200
 categories: jekyll update
 ---
