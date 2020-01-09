@@ -34,9 +34,7 @@ Il y a  **3 onduleurs en parallèles** , d’une **autonomie de 3*15 minutes** p
 Ainsi j’ai eu la chance d’assister **le technicien de maintenance onduleur** et j’en ai profité pour apprendre plus d’avantage . On a vérifié l’historique car il y a **un système de gestion d’incidents** et grâce à ça on a relevé l’heure et la date exacte de l’incident. J’ai manipulé certains outils professionnels tels que **le multimètre**, ce dernier a permis de vérifier si **les fusibles** étaient opérationnels ou pas . Mais permet aussi de mesurer **la fréquence, la température, la résistance , et la tension dans un circuit électronique**…..J’ai pu voir la **carte mère** et **la batterie** de **l'onduleur** d’une tension de **plus de 300 volts**
 J’ai utilisé aussi **le VAT** , qui veut dire **vérificateur d’absence de tension** afin d’être sûr que les fusibles ne fonctionnaient plus. J’ai appris aussi qu’on pouvait se connecter sur l’onduleur via un **câble USB.**  
 <br/> 
-<img width="30%" src="/jekyll-wing-template/assets/ond1.jpg"/>
-<img width="30%" src="/jekyll-wing-template/assets/ond2.jpg"/>
-<img width="30%" src="/jekyll-wing-template/assets/ond3.jpg"/>
+<img width="30%" src="/jekyll-wing-template/assets/onduleur.PNG"/>
 <br/> 
 <br/> 
 **J'ai realisé aussi une video que vous pouvez visionner pour avoir une idée de mon avancement.**  
