@@ -22,7 +22,7 @@ J’ai enfin finalisé mon projet, il est bouclé. Je suis fier de moi car j’a
 Au début de la semaine, on était entrain de travailler et tout à coup les onduleurs ont lâché suite à une coupure de courant mais ils n’ont pas pu alimenter l’entreprise, ils ont passé à 0% en l’espace d’une seconde.Pour moi je dirai qu’il y a un problème aux niveaux des batteries  ou bien une erreur dans la configuration. Quoi qu’il en soit ils ont prévu des générateurs de secours pour prendre le relai.  
 
 <br/> 
-<img width="25%" src="/jekyll-wing-template/assets/onduleur.PNG" />
+<img src="/jekyll-wing-template/assets/onduleur.PNG" />
 
 
 <br/> 
