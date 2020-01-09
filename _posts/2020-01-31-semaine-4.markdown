@@ -1,0 +1,37 @@
+﻿---
+author: Asmed
+layout: post
+title:  "Compte-rendu semaine 4 (2éme Année)"
+date:   2020-01-31 06:42:45 +0200
+categories: jekyll update
+---
+<br/>
+
+**I) Les problèmes rencontrés**  
+
+Cette quatrième semaine était vraiment chaotique car deux onduleurs sur trois ont lâché, de ce fait on a eu plusieurs coupures toutes les dix minutes. Un nouveau technicien était venu mais j’ai pas eu la chance d’y assister sur place. De plus le mercredi était férié, et par conséquent ça m'a un peu ralenti.  
+<br/>
+**II) Mon projet**  
+
+J’ai enfin finalisé mon projet, il est bouclé. Je suis fier de moi car j’ai réussi à mener cette tache que l’on m’a confié sans l’aide de personne et c’est intense pour moi.  
+
+<br/>
+
+**III) Les onduleurs en pannes**  
+
+Au début de la semaine, on était entrain de travailler et tout à coup les onduleurs ont lâché suite à une coupure de courant mais ils n’ont pas pu alimenter l’entreprise, ils ont passé à 0% en l’espace d’une seconde.Pour moi je dirai qu’il y a un problème aux niveaux des batteries  ou bien une erreur dans la configuration. Quoi qu’il en soit ils ont prévu des générateurs de secours pour prendre le relai.  
+
+<br/> 
+<img width="25%" src="/jekyll-wing-template/assets/ond2.jpg" />
+<img width="25%" src="/jekyll-wing-template/assets/ond3.jpg" />
+
+<br/> 
+
+**IV) Pratique**  
+J’ai participé à l'installation et à la configuration de nouveaux postes de travail, je sais comment connecté le different materiel et pris connaissance des differents cables dont précisement les cables Ethernet, d'alimentation, HDMI, USB, VGA...etc   
+On a fait le tour de tout l'hopital pour dépanner et remplacer du matériel dont des imprimentes, des unités centrales, des moniteurs...etc  
+
+<br/> 
+<img src="/jekyll-wing-template/assets/q3.png" width="350" height="200" class="90">
+<img src="/jekyll-wing-template/assets/q5.png" width="350" height="200" class="90">
+
