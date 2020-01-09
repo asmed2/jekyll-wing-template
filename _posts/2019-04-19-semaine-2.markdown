@@ -20,7 +20,7 @@ J’ai commencé mon projet « Intercos-Switch », j’ai fait les classeurs e
 On a une nouvelle fois visiter la salle de serveur ,et j’ai pris connaissances de différents câbles/ports  que ce soit les standards ou les spécifiques. En effet les standards **(Ports Ethernet)** permettent de connecter le matériel tels que les ordinateurs, les imprimantes autrement dit, les branchement standards…  
 Tandis que les ports spécifiques tels que **les liaisons fibres** permettent d’interconnecter plusieurs switches sur différent bâtiments, c’est le cas ici au **CHM** . L’avantage avec les liaisons fibres ce qu’elles permettent **un grand flux de trafic réseau.**  
 <br/> 
- <img width="40%" src="/jekyll-wing-template/assets/port.jpg" />
+ <img src="/jekyll-wing-template/assets/swich.PNG" />
 <br/>
 <br/> 
 **II)  Les problemes que j’ai rencontré dans la semaine**   
