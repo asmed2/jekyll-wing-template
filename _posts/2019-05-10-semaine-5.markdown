@@ -1,4 +1,4 @@
-﻿---
+---
 author: Asmed
 layout: post
 title:  "Compte-rendu semaine 5 (1ère année)"
