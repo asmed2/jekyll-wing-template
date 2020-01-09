@@ -27,8 +27,8 @@ J'ai pu retiré avec l'aide du technicien le composant qui pose problème, en ef
 Si tout se deroule comme prévu, je demanderai à assister une nouvelle fois au remplacement.  
 
 <br/> 
-<img width="45%" src="/jekyll-wing-template/assets/fu1.jpg" />
-<img width="45%" src="/jekyll-wing-template/assets/fu2.jpg" />
+<img src="/jekyll-wing-template/assets/phase.PNG" />
+
 
 <br/> 
 <br/> 
