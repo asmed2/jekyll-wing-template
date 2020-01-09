@@ -21,7 +21,13 @@ layout: default
         {% endfor %}
       </ul>
        
-       <div class="posts card">
+      
+
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      </div>
+   </div>
+ 
+  <div class="posts card">
       <div class="card-content white-text">   
        <span class="card-title">1ère année</span>
        
@@ -33,9 +39,7 @@ layout: default
           </li>
         {% endfor %}
       </ul>
-
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+       
       </div>
    </div>
-
 </div>
