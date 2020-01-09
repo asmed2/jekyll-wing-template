@@ -13,7 +13,7 @@ Depuis lundi, je fais beaucoup de manipulation 	notamment du dépannage et du re
 
 <br/> 
 
-<img src="/jekyll-wing-template/assets/prat1.png" width="200" height="200" class="90">
+<img src="/jekyll-wing-template/assets/armoir.PNG" >
 
 <br/> 
 
