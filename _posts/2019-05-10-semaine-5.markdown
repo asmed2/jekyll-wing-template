@@ -45,7 +45,7 @@ On a placé des serveur virtuels de secours en cas de problème avec le serveur 
 * -- **show config** pour vérifier la configuration a été appliqué ou pas.  
 <br/> 
 <P style="text-align:center">
-  <img width="100%"src="/jekyll-wing-template/assets/putty.png" width="400" height="200" >
+  <img width="100%" src="/jekyll-wing-template/assets/putty.png" width="400" height="200" >
 </P>
 <P style="text-align:center">Un logiciel formidable en réseau  (Logiciel : PuTTY )</P>
 
