@@ -14,13 +14,13 @@ categories: jekyll update
 J’ai commencé mon projet « Intercos-Switch », j’ai fait les classeurs et je complète le différent matériel connecté au réseau en m'adaptant avec le logiciel PuTTY Telnet. Vous retrouverez ci-dessous des images que j’ai fais afin d’avoir une idée de ce projet.  
 <br/> 
 
-<img width="80%" src="/jekyll-wing-template/assets/Capture2.PNG" />
+<img width="100%" src="/jekyll-wing-template/assets/Capture2.PNG" />
 <br/> 
 <br/> 
 On a une nouvelle fois visiter la salle de serveur ,et j’ai pris connaissances de différents câbles/ports  que ce soit les standards ou les spécifiques. En effet les standards **(Ports Ethernet)** permettent de connecter le matériel tels que les ordinateurs, les imprimantes autrement dit, les branchement standards…  
 Tandis que les ports spécifiques tels que **les liaisons fibres** permettent d’interconnecter plusieurs switches sur différent bâtiments, c’est le cas ici au **CHM** . L’avantage avec les liaisons fibres ce qu’elles permettent **un grand flux de trafic réseau.**  
 <br/> 
- <img src="/jekyll-wing-template/assets/swich.PNG" />
+ <img width="100%" src="/jekyll-wing-template/assets/swich.PNG" />
 <br/>
 <br/> 
 **II)  Les problemes que j’ai rencontré dans la semaine**   
