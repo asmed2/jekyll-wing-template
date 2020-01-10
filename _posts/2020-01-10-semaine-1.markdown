@@ -15,7 +15,7 @@ Cette début de semaine a commencé par une réunion, c’était aussi l’occas
 <br/> 
 **II) Installation de matériel**   
 <br/> 
-On est allé **installer des nouveaux postes** aux après une demande via **GLPI**. On a appris comment **indexer** et **inventorier** des **équipements informatiques**. Nous avons participé à une intervention au **CHM**, où il fallait installer du nouveau **matériel indéxé** et **inventorié**, dont **les écrans**, **les boitiers** et **les imprimantes à étiquettes**. j’ai pris connaissances du diffèrent **câblage**, mais aussi, j’ai appris à faire du **brassage**.  
+On est allé **installer des nouveaux postes** au **CHM** après une demande via **GLPI**. On a appris comment **indexer** et **inventorier** des **équipements informatiques**. Nous avons participé à des intervention à plusieurs endroits, où il fallait installer du nouveau **matériel indéxé** et **inventorié**, dont **les écrans**, **les boitiers** et **les imprimantes à étiquettes**. j’ai pris connaissances du diffèrent **câblage**, mais aussi, j’ai appris à faire du **brassage**.  
 <br/> 
 **III) Configuration d'imprimante**  
 <br/> 
