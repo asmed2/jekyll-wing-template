@@ -13,12 +13,12 @@ categories: jekyll update
 Cette début de semaine a commencé par une réunion, c’était aussi l’occasion de nous présenter car malgré qu’on connait le lieu et la plupart du personnel, c’était la moindre des choses à faire. On a rencontré notre **tuteur**, **Chirchikov Andrei** qui nous accompagnera tout au long de notre séjour. Bien évidemment, il n’a pas tardé à nous confier de **nouvelles tâches à faire**.   
 **Notre mission** de cette semaine était de **réinitialiser plusieurs boitiers**. On a commencé tout d’abord par **tester le matériel** afin de **trier** celui qui est **opérationnel** et celui qui est **H.S** (**hors service**), avant **d’exécuter les procédures de réinitialisation** et de **mises-à-jour**. Il fallait aussi relever le **numéro inventaire** de chaque boitier, ainsi que les **numéros séries** afin de pouvoir **inventorier le matériel**. 
 <br/> 
-
 **II) Installation de matériel**   
 <br/> 
 On est allé **installer des nouveaux postes** aux Urgences de Mamoudzou, j’ai pris connaissances du diffèrent **câblage**, mais aussi, j’ai appris à faire du **brassage**.  
 <br/> 
-**III) Configuration d'imprimante** 
+**III) Configuration d'imprimante**  
+<br/> 
 <br/> 
 On a eu l’occasion moi et mon collègue, d’apprendre comment **configurer des imprimantes** via le réseau. Chaque imprimante est représentée par un **numéro matricule** de trois blocs séparés par des tirets, et composé du **numéro UF (Unité fonctionnel), du nom de l’imprimante, et la fonction des utilisateurs** comme dans l’exemple ci-dessous :  
 **LE410DE-8702-SEC1**  
