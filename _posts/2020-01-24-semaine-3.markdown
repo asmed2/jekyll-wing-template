@@ -6,7 +6,4 @@ date:   2020-01-24 06:42:45 +0200
 categories: jekyll update
 ---
 
-<p>
-lien pour inserer un fichier
-<a href="/jekyll-wing-template/assets/swi.doc" target="_blank">ici</a>.
-<!-- lien fichier -->
+
