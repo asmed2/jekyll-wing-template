@@ -21,7 +21,6 @@ On est allé **installer des nouveaux postes** aux Urgences de Mamoudzou, j’ai
 **III) Configuration d'imprimante** 
 <br/> 
 On a eu l’occasion moi et mon collègue, d’apprendre comment **configurer des imprimantes** via le réseau. Chaque imprimante est représentée par un **numéro matricule** de trois blocs séparés par des tirets, et composé du **numéro UF (Unité fonctionnel), du nom de l’imprimante, et la fonction des utilisateurs** comme dans l’exemple ci-dessous :  
-<br/> 
 **LE410DE-8702-SEC1**  
 <br/> 
 Ici le **nom de l’imprimante** est **LE410DE**, il appartient à l’**UF 8702** et cette imprimante est pour **les secrétaires d’où SEC1**, le 1 à la fin représente le nombre d’imprimante. On a appris à ajouter une imprimante dans un groupe de travail. Et comment créer des pools d’adresses sur **le serveur DHCP**, on a attribué des adresses **IP fixes** pour les imprimantes à nos services ainsi qu’un **pool d’adresses** au cas on voudrait ajouter de nouvelles imprimantes.  
