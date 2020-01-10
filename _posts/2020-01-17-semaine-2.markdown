@@ -1,11 +1,6 @@
----
 author: Asmed
 layout: post
 title:  "Compte-rendu semaine 2"
 date:   2020-01-17 09:42:45 +0200
 categories: jekyll update
 ---
-
-Pour visionner cette video cliquez
-<a href="/jekyll-wing-template/assets/ondson.mp4" target="_blank">ici</a>.
-
