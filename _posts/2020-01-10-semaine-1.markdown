@@ -10,7 +10,6 @@ categories: jekyll update
 <br/>  
 
 **I) Début de stage**{:style="color:red;"} 
-:smile:
 
 <br/>
 Cette début de semaine a commencé par une réunion, c’était aussi l’occasion de nous présenter car même si on
