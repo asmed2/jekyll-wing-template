@@ -9,10 +9,10 @@ categories: jekyll update
 ### Du 06 au 10 Janvier  
 <br/>  
 
-<u><span style="color:red">**I) Début de stage** </span>.</u>
+<u>**I) Début de stage**{:style="color:red;"}.</u>
 <br/>
 Cette début de semaine a commencé par une réunion, c’était aussi l’occasion de nous présenter car même si on
-connait les lieux et la plupart du personnel, c’est la moindre des choses à faire. On a rencontré notre **tuteur**{:style="color:red;"} , **Chirchikov Andrei**{:style="color:red;"}  qui nous accompagnera tout au long de notre séjour. Bien évidemment, il n’a pas tardé à nous confier de **nouvelles tâches à faire**.
+connait les lieux et la plupart du personnel, c’est la moindre des choses à faire. On a rencontré notre **tuteur** , **Chirchikov Andrei** qui nous accompagnera tout au long de notre séjour. Bien évidemment, il n’a pas tardé à nous confier de **nouvelles tâches à faire**.
 <br/>  
 **Notre mission** de cette semaine était de **réinitialiser plusieurs boitiers**. On a commencé tout d’abord par **tester le matériel** afin de **trier** celui qui est **opérationnel** et celui qui est **H.S** (**hors service**), avant **d’exécuter les procédures de réinitialisation** et de **mises-à-jour**. Le principe était de **réinitialiser le système** et **le remplacer** par celui de l’entreprise. **Le sytème** à trasférer est **un programme autonome, dans une clé USB** nommée, **T520**, celle-ci **s'exécute au démarrage**, dans le cas contraire, on **l'exécute manuellement au démarrage via les touches fonctionnelles**. Cette opération nous a pris plusieurs jours, puisque , **la réinitialisation du système d’exploitation** prenait une demi-heure, sachant qu'on avait **une trentaine de boitiers**. Ensuite, il fallait relever le **numéro inventaire** de chaque boitier, ainsi que les **numéros séries** afin de pouvoir **inventorier le matériel**.  
 <br/>
