@@ -15,3 +15,53 @@ categories: jekyll update
 | URG              | Boitier         |  
 | MED              | Boitier         |
 | BIOMED           | Boitier         |
+
+
+<br/>
+<br/>
+<br/>
+
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  text-align: left;
+}
+</style>
+
+<body>
+
+
+<table style="width:100%">
+  <tr>
+    <th>TSE (Terminal </th>
+    <th>Materiel</th>
+  </tr>
+  <tr>
+    <td>2008</td>
+    <td>Boîtier</td>
+  </tr>
+  <tr>
+    <td>soins</td>
+    <td>Boîtier</td>
+  </tr>
+  <tr>
+    <td>ADM</td>
+    <td>Boîtier</td>
+  </tr>
+  <tr>
+    <td>URG</td>
+    <td>Boîtier</td>
+  </tr>
+  <tr>
+    <td>MED</td>
+    <td>Boîtier</td>
+  </tr>
+  <tr>
+    <td>BIOMED</td>
+    <td>Boîtier</td>
+  </tr>
+</table>
