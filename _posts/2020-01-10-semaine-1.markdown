@@ -9,7 +9,7 @@ categories: jekyll update
 ### Du 06 au 10 Janvier  
 <br/>  
 
-<u>**I) Début de stage** {:style="color:red;"}</u>
+**I) Début de stage** {:style="color:red;"}
 <br/>
 Cette début de semaine a commencé par une réunion, c’était aussi l’occasion de nous présenter car même si on
 connait les lieux et la plupart du personnel, c’est la moindre des choses à faire. On a rencontré notre **tuteur** , **Chirchikov Andrei** qui nous accompagnera tout au long de notre séjour. Bien évidemment, il n’a pas tardé à nous confier de **nouvelles tâches à faire**.
