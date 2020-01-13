@@ -29,6 +29,7 @@ table, th, td {
 }
 th, td {
   text-align: left;
+  padding: 5px;
 }
 </style>
 
