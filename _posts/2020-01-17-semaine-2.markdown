@@ -7,11 +7,11 @@ categories: jekyll update
 ---
 
 
-| TSE (Terminal serveur  | Materiel          | 
+| TSE (Terminal    | Materiel        | 
 | :--------------- |:---------------:|
-| 2008 |  Boitier      | 
-| soins| Boitier       | 
-| ADM | Boitier        |    
-| URG |   Boitier      |  
-| MED| Boitier         |
-| BIOMED | Boitier     |
+| 2008             | Boitier         | 
+| soins            | Boitier         | 
+| ADM              | Boitier         |    
+| URG              | Boitier         |  
+| MED              | Boitier         |
+| BIOMED           | Boitier         |
