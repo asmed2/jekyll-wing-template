@@ -10,7 +10,7 @@ categories: jekyll update
 
 **Booter : F10 pour aller dans le BIOS.**
 
-I) Mettre la clé Flash BIOS  
+**I) Mettre la clé Flash BIOS  **
 1 - Choisir BIOS Flash système  
 2 - Launch HP BIOS Update  
 
@@ -26,7 +26,10 @@ Appuyer sur la touche S et enlever la clé.
 Clique droit de nouveau sur Administrateur/ propriété/ décocher le compte est désactivé/ puis appliquer /ok  
 Clique ensuite sur Admin/ propriété / décocher le compte est désactivé/ appliquer / OK/ se déconnecter avec Administrateur =>  Administrateur  
 
-**IV) démarrer / panneau de configuration / HP Easy Shell configuration / clique sur connexion en haut à gauche / modifier / modifier le nom d'hôte / OK / appliquer en bas /quitter  
+**IV) démarrer / panneau de configuration /  
+HP Easy Shell configuration /  
+clique sur connexion en haut à gauche /  
+modifier / modifier le nom d'hôte / OK / appliquer en bas /quitter  
 
 **V) Mettre / système / modifier les paramètres**  
 Nommer le PC HC, HP... /domaine chmayotte.fr ne pas redémarrer.  
@@ -34,7 +37,7 @@ Démarrer / panneau de configuration
 
 **VI) redémarrage / ctrl- Alt- Suppr pour se remettre en administrateur configurer VNC/ OCS et fermer le cadenas**  
 
-VII) inventaire : GLP / actifs / OCS NG  
+**VII) inventaire : GLP / actifs / OCS NG**
 N° inventaire  
 N° de série  
 
