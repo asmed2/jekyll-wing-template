@@ -6,20 +6,23 @@ date:   2020-01-17 09:42:45 +0200
 categories: jekyll update
 ---
 
-**Préparation de boitier HCL**   
-
+**procédure de Préparation de boitier HCL**   
+<br/> 
 **Booter : F10 pour aller dans le BIOS.**  
-
+<br/> 
 **I) Mettre la clé Flash BIOS**   
+<br/> 
 1 - Choisir BIOS Flash système   
 2 - Launch HP BIOS Update  
+<br/> 
 
 **II) Installation de l'image système**  
+
 1 -Mettre la clé IMAGE 530 et booter avec F9     
 À la question "Do you want to continue ?" Appuyer sur Y.   
 "Are you sure that you want to run this utility ?" Y    
 Appuyer sur la touche S et enlever la clé.   
-
+<br/> 
 **III) Rallumer la machine, faire ctrl-Alt-Suppr**  
 1 - Se déconnecter du compte user et connecter avec le compte admin    
 2 - activer le compte Administrateur avec le mot de passe Administrateur, démarrer/ Gestion de l’ordinateur/  
@@ -27,19 +30,20 @@ Appuyer sur la touche S et enlever la clé.
 3 - Clique droit de nouveau sur Administrateur/ propriété/ décocher le compte est désactivé/ puis appliquer /ok  
 4 - Clique ensuite sur Admin/ propriété / décocher le compte est désactivé   
 5 -  Appliquer / OK/ se déconnecter avec Administrateur =>  Administrateur   
-
+<br/> 
 **IV) démarrer / panneau de configuration /**  
  -HP Easy Shell configuration  
  -Clique sur connexion en haut à gauche  
  -Modifier / modifier le nom d'hôte / OK  
  -Appliquer en bas /quitter  
-
+<br/> 
 **V) Mettre / système / modifier les paramètres**  
  -Nommer le PC HC, HP... /domaine chmayotte.fr ne pas redémarrer.  
  -Démarrer / panneau de configuration  
-
-**VI) redémarrage / ctrl- Alt- Suppr pour se remettre en administrateur configurer VNC/ OCS et fermer le cadenas**  
-
+<br/> 
+**VI) redémarrage / ctrl- Alt- Suppr pour se remettre en administrateur**   
+ Configurer VNC/ OCS et fermer le cadenas  
+<br/> 
 **VII) inventaire : GLP / actifs / OCS NG**  
  -N° inventaire  
  -N° de série  
