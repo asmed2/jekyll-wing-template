@@ -33,12 +33,3 @@ Si tout se deroule comme prévu, je demanderai à assister une nouvelle fois au 
 <br/> 
 <br/> 
 
-
-
-<p>
-Vous pouvez accéder à une petite partie de mon projet en cliquant
-<a href="/jekyll-wing-template/assets/Intercos.xlsx" target="_blank">ici</a>.  
-<p>
-Ainsi qu'à une petite partie du fichier annexe en cliquant
-<a href="/jekyll-wing-template/assets/swi.doc" target="_blank">ici</a>.
-<!-- lien fichier -->
