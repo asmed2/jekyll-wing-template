@@ -6,11 +6,9 @@ date:   2020-01-17 09:42:45 +0200
 categories: jekyll update
 ---
 
-**procédure de Préparation de boitier HCL**   
+**Procédure de Préparation de boitier HCL**   
 <br/> 
-**Booter : F10 pour aller dans le BIOS.**  
-<br/> 
-**I) Mettre la clé Flash BIOS**   
+**I) Booter : F10 pour aller dans le BIOS et mettre la clé Flash BIOS**   
 <br/> 
 1 - Choisir BIOS Flash système   
 2 - Launch HP BIOS Update  
@@ -19,9 +17,9 @@ categories: jekyll update
 **II) Installation de l'image système**  
 
 1 -Mettre la clé IMAGE 530 et booter avec F9     
-À la question "Do you want to continue ?" Appuyer sur Y.   
-"Are you sure that you want to run this utility ?" Y    
-Appuyer sur la touche S et enlever la clé.   
+À la question "**Do you want to continue** ?" Appuyer sur Y.   
+"**Are you sure that you want to run this utility ?**" Y    
+2- Appuyer sur la touche S et enlever la clé.   
 <br/> 
 **III) Rallumer la machine, faire ctrl-Alt-Suppr**  
 1 - Se déconnecter du compte user et connecter avec le compte admin    
