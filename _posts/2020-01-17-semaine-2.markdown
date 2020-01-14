@@ -10,7 +10,7 @@ categories: jekyll update
 | TSE (Terminal    | Materiel        | 
 | :--------------- |:---------------:|
 | 2008             | Boitier         | 
-|      soins            | Boitier         | 
+| soins            | Boitier         | 
 | ADM              | Boitier         |    
 | URG              | Boitier         |  
 | MED              | Boitier         |
@@ -65,4 +65,41 @@ th, td {
     <td>Boîtier</td>
   </tr>
 </table>
+
+
+
+##**Préparation de boitier HCL**##
+
+**Booter : F10 pour aller dans le BIOS.**
+
+I) Mettre la clé Flash BIOS
+1 - Choisir BIOS Flash système
+2 - Launch HP BIOS Update
+
+**II) Installation de l'image système**
+1 - mettre la clé IMAGE 530 et booter avec F9
+À la question "Do you want to continue ?" Appuyer sur Y.
+"Are you sure that you want to run this utility ?" Y
+Appuyer sur la touche S et enlever la clé.
+
+**III) Rallumer la machine, faire ctrl-Alt-Suppr**
+1 - Se déconnecter du compte user et connecter avec le compte admin
+2 - activer le compte Administrateur avec le mot de passe Administrateur, démarrer/ Gestion de l’ordinateur/ utilisateurs et groupes locaux/ utilisateurs / clic droit sur Administrateur / définir le mot de passe / continuer Adminstrator et confirmer
+Clique droit de nouveau sur Administrateur/ propriété/ décocher le compte est désactivé/ puis appliquer /ok
+Clique ensuite sur Admin/ propriété / décocher le compte est désactivé/ appliquer / OK/ se déconnecter
+
+Se connecter avec Administrateur => Administrateur
+
+**IV) démarrer / panneau de configuration / HP Easy Shell configuration / clique sur connexion en haut à gauche / modifier / modifier le nom d'hôte / OK / appliquer en bas /quitter
+
+**V) Mettre / système / modifier les paramètres**
+Nommer le PC HC, HP... /domaine chmayotte.fr ne pas redémarrer.
+Démarrer / panneau de configuration
+
+**VI) redémarrage / ctrl- Alt- Suppr pour se remettre en administrateur configurer VNC/ OCS et fermer le cadenas**
+
+VII) inventaire : GLP / actifs / OCS NG
+N° inventaire
+N° de série
+
 
