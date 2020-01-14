@@ -6,33 +6,33 @@ date:   2020-01-17 09:42:45 +0200
 categories: jekyll update
 ---
 
-**Préparation de boitier HCL**
+**Préparation de boitier HCL**  
 
-**Booter : F10 pour aller dans le BIOS.**
+**Booter : F10 pour aller dans le BIOS.**  
 
-**I) Mettre la clé Flash BIOS**
+**I) Mettre la clé Flash BIOS**  
 1 - Choisir BIOS Flash système  
 2 - Launch HP BIOS Update  
 
-**II) Installation de l'image système**
-1 -Mettre la clé IMAGE 530 et booter avec F9  
+**II) Installation de l'image système**  
+1 -Mettre la clé IMAGE 530 et booter avec F9    
 À la question *"Do you want to continue ?" Appuyer sur Y.  
-"Are you sure that you want to run this utility ?" Y  
-Appuyer sur la touche S et enlever la clé.  
+"Are you sure that you want to run this utility ?" Y    
+Appuyer sur la touche S et enlever la clé.*     
 
 **III) Rallumer la machine, faire ctrl-Alt-Suppr**  
 1 - Se déconnecter du compte user et connecter avec le compte admin   
-2 - activer le compte Administrateur avec le mot de passe Administrateur, démarrer/ Gestion de l’ordinateur/
-    *-Utilisateurs et groupes   locaux/ utilisateurs / clic droit sur Administrateur / définir le mot de passe / continuer Adminstrator       et confirmer  
+2 - activer le compte Administrateur avec le mot de passe Administrateur, démarrer/ Gestion de l’ordinateur/  
+    *-Utilisateurs et groupes   locaux/ utilisateurs / clic droit sur Administrateur / définir le mot de passe / continuer Adminstrator et confirmer    
 3 - Clique droit de nouveau sur Administrateur/ propriété/ décocher le compte est désactivé/ puis appliquer /ok  
-4 - Clique ensuite sur Admin/ propriété / décocher le compte est désactivé/  
-5 -  Appliquer / OK/ se déconnecter avec Administrateur =>  Administrateur  
+4 - Clique ensuite sur Admin/ propriété / décocher le compte est désactivé   
+5 -  Appliquer / OK/ se déconnecter avec Administrateur =>  Administrateur   
 
 **IV) démarrer / panneau de configuration /**
 *-HP Easy Shell configuration  
  -Clique sur connexion en haut à gauche  
  -Modifier / modifier le nom d'hôte / OK  
- -Appliquer en bas /quitter  
+ -Appliquer en bas /quitter*   
 
 **V) Mettre / système / modifier les paramètres**  
 *-Nommer le PC HC, HP... /domaine chmayotte.fr ne pas redémarrer.  
