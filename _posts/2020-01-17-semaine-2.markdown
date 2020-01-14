@@ -17,9 +17,9 @@ categories: jekyll update
 **II) Installation de l'image système**  
 
 1 -Mettre la clé IMAGE 530 et booter avec F9     
-À la question "**Do you want to continue** ?" Appuyer sur Y.   
-"**Are you sure that you want to run this utility ?**" Y    
-2- Appuyer sur la touche S et enlever la clé.   
+À la question "Do you want to continue ?" **Appuyer sur Y**.   
+"Are you sure that you want to run this utility ?" **ppuyer sur Y**.  
+2- **Appuyer sur la touche S et enlever la clé.**   
 <br/> 
 **III) Rallumer la machine, faire ctrl-Alt-Suppr**  
 1 - Se déconnecter du compte user et connecter avec le compte admin    
@@ -27,7 +27,7 @@ categories: jekyll update
 -Utilisateurs et groupes   locaux/ utilisateurs / clic droit sur Administrateur / définir le mot de passe / continuer Adminstrator et confirmer  
 3 - Clique droit de nouveau sur Administrateur/ propriété/ décocher le compte est désactivé/ puis appliquer /ok  
 4 - Clique ensuite sur Admin/ propriété / décocher le compte est désactivé   
-5 -  Appliquer / OK/ se déconnecter avec Administrateur =>  Administrateur   
+5 -  Appliquer / OK/ se déconnecter avec Administrateur.     
 <br/> 
 **IV) démarrer / panneau de configuration /**  
  -HP Easy Shell configuration  
