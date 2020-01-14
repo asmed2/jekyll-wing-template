@@ -7,10 +7,10 @@
 
 # Site settings
 title: Mon parcours de formation
-email: as*****@gmail.com
+email: as*****ze@gmail.com
 description:  Bienvenue sur mon site de parcours de formation. Ce site décrit toute l’expérience que j'acquiers ainsi que les activités realisées au cours de mon stage. En effet, étant étudiant en BTS SIO SISR, mon objectif est d'acquérir le plus d'expérience possible. N’hésitez pas à cliquer sur le bouton lire plus ci-dessous pour des informations supplémentaires concernant ce site.
 baseurl: "/jekyll-wing-template" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://asmed2.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
