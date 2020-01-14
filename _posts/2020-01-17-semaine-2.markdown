@@ -6,7 +6,7 @@ date:   2020-01-17 09:42:45 +0200
 categories: jekyll update
 ---
 
-###Procédure de Préparation de boitier HCL###     
+***Procédure de Préparation de boitier HCL***   
 <br/> 
 **I) Booter : F10 pour aller dans le BIOS et mettre la clé Flash BIOS**   
 <br/> 
