@@ -34,3 +34,35 @@ th, td {
 
 <body>
 
+
+<table style="width:100%">
+  <tr>
+    <th>TSE (Terminal </th>
+    <th>Materiel</th>
+  </tr>
+  <tr>
+    <td>2008</td>
+    <td>Boîtier</td>
+  </tr>
+  <tr>
+    <td>soins</td>
+    <td>Boîtier</td>
+  </tr>
+  <tr>
+    <td>ADM</td>
+    <td>Boîtier</td>
+  </tr>
+  <tr>
+    <td>URG</td>
+    <td>Boîtier</td>
+  </tr>
+  <tr>
+    <td>MED</td>
+    <td>Boîtier</td>
+  </tr>
+  <tr>
+    <td>BIOMED</td>
+    <td>Boîtier</td>
+  </tr>
+</table>
+
