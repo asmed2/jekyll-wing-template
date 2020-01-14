@@ -6,7 +6,7 @@ date:   2020-01-17 09:42:45 +0200
 categories: jekyll update
 ---
 
-**Procédure de Préparation de boitier HCL**   
+###Procédure de Préparation de boitier HCL###     
 <br/> 
 **I) Booter : F10 pour aller dans le BIOS et mettre la clé Flash BIOS**   
 <br/> 
@@ -18,7 +18,7 @@ categories: jekyll update
 
 1 -Mettre la clé IMAGE 530 et booter avec F9     
 À la question "Do you want to continue ?" **Appuyer sur Y**.   
-"Are you sure that you want to run this utility ?" **ppuyer sur Y**.  
+"Are you sure that you want to run this utility ?" **Appuyer sur Y**.  
 2- **Appuyer sur la touche S et enlever la clé.**   
 <br/> 
 **III) Rallumer la machine, faire ctrl-Alt-Suppr**  
