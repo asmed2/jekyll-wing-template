@@ -1,7 +1,7 @@
 ---
 author: Asmed
 layout: post
-title:  "Introduction"
+title:  "Introduction-generale"
 date:   2020-01-10 08:42:45 +0200
 categories: jekyll update
 ---
