@@ -7,6 +7,22 @@ categories: jekyll update
 ---
 
 
+<br/>  
+<img width="100%" src="/jekyll-wing-template/assets/page1.png" />  
+<img width="100%" src="/jekyll-wing-template/assets/page2.png" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page3.png" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page4.png" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page5.png" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page6.png" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page7.png" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page8.png" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page9.png" /> 
+<br/> 
+
+
+
+
+
 Depuis **lundi 08/Avril/2019** on m’a integré dans le domaine réseau, ainsi j’ai pu visité le bureau serveur et j’ai eu la chance de voir la plupart du matériel dont notamment , le serveur et les switches, les différents types de câbles réseaux pour les connexion  et les différents ports… 
 <br/> 
  
