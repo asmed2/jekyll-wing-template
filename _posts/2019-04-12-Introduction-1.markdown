@@ -1,21 +1,21 @@
 ---
 author: Asmed
 layout: post
-title:  "Introduction-generale"
+title:  "Introduction-générale version 2"
 date:   2020-01-10 08:42:45 +0200
 categories: jekyll update
 ---
 
 <br/>  
-<img width="100%" src="/jekyll-wing-template/assets/page1" />  
-<img width="100%" src="/jekyll-wing-template/assets/page2" /> 
-<img width="100%" src="/jekyll-wing-template/assets/page3" /> 
-<img width="100%" src="/jekyll-wing-template/assets/page4" /> 
-<img width="100%" src="/jekyll-wing-template/assets/page5" /> 
-<img width="100%" src="/jekyll-wing-template/assets/page6" /> 
-<img width="100%" src="/jekyll-wing-template/assets/page7" /> 
-<img width="100%" src="/jekyll-wing-template/assets/page8" /> 
-<img width="100%" src="/jekyll-wing-template/assets/page9" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page1.png" />  
+<img width="100%" src="/jekyll-wing-template/assets/page2.png" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page3.png" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page4.png" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page5.png" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page6.png" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page7.png" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page8.png" /> 
+<img width="100%" src="/jekyll-wing-template/assets/page9.png" /> 
 <br/>  
 
 
