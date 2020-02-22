@@ -6,3 +6,7 @@ date:   2020-02-07 06:42:45 +0200
 categories: jekyll update
 ---
 
+
+<br/>  
+<img width="100%" src="/jekyll-wing-template/assets/page10.png" />  
+<br/>  
