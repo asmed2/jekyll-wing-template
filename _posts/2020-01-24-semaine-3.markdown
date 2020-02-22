@@ -7,10 +7,10 @@ categories: jekyll update
 ---
 
 <br/>  
-<img width="100%" src="/jekyll-wing-template/assets/activite1.PNG" />  
-<img width="100%" src="/jekyll-wing-template/assets/activite1.PNG" />  
-<img width="100%" src="/jekyll-wing-template/assets/activite1.PNG" />  
-<img width="100%" src="/jekyll-wing-template/assets/activite1.PNG" />  
-<img width="100%" src="/jekyll-wing-template/assets/activite1.PNG" />  
-<img width="100%" src="/jekyll-wing-template/assets/activite1.PNG" />  
+<img width="100%" src="/jekyll-wing-template/assets/page1[1].png" />  
+<img width="100%" src="/jekyll-wing-template/assets/page2[1].png" />  
+<img width="100%" src="/jekyll-wing-template/assets/page3[1].png" />  
+<img width="100%" src="/jekyll-wing-template/assets/page4[1].png" />  
+<img width="100%" src="/jekyll-wing-template/assets/page5[1].png" />  
+<img width="100%" src="/jekyll-wing-template/assets/page6[1].png" />  
 <br/>  
